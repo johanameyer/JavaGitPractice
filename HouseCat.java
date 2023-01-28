@@ -1,8 +1,10 @@
-public class HouseCat
+abstract class HouseCat
 {
-	public void introduce
+	public void introduce()
 {
-	System.out.println("Let's introduce this house cat!!");
+	public abstract void introduce();
+	
+	public abstract void makeNoise();
 
 }
 
